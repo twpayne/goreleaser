@@ -43,6 +43,9 @@ winget:
     # Default: Publisher.ProjectName
     # Templates: allowed
     package_identifier: myproject.myproject
+    
+    # Publisher support URL.
+    publisher_support_url: "https://github.com/user/repo/issues/new"
 
     # IDs of the archives to use.
     # Empty means all IDs.

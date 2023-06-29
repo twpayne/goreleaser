@@ -5,6 +5,7 @@ PackageVersion: 1.2.1
 PackageLocale: en-US
 Publisher: Beckersoft
 PublisherUrl: https://carlosbecker.com
+PublisherSupportUrl: https://goreleaser.com/support/
 Author: Carlos Becker
 PackageName: foo
 PackageUrl: https://goreleaser.com
