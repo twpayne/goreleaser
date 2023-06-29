@@ -114,6 +114,11 @@ winget:
     # Templates: allowed
     release_notes_url: "https://foo.bar/changelog/{{.Version}}"
 
+    # Tags.
+    tags:
+      - golang
+      - cli
+
 {% include-markdown "../includes/repository.md" comments=false %}
 ```
 

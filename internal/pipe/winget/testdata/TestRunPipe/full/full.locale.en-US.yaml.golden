@@ -19,6 +19,8 @@ Description: |-
 
   				sss
 Moniker: foo
+Tags:
+  - baz
 ReleaseNotes: the changelog for this release...
 ReleaseNotesUrl: https://github.com/goreleaser/goreleaser/tags/v1.2.1
 ManifestType: defaultLocale

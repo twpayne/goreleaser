@@ -311,7 +311,7 @@ func (p Pipe) doRun(ctx *context.Context, winget config.Winget, cl client.Releas
 		ShortDescription:  shortDescription,
 		Description:       description,
 		Moniker:           name,
-		Tags:              []string{},
+		Tags:              winget.Tags,
 		ReleaseNotes:      winget.ReleaseNotes,
 		ReleaseNotesURL:   winget.ReleaseNotesURL,
 		ManifestType:      "defaultLocale",

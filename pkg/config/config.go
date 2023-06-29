@@ -283,6 +283,7 @@ type Winget struct {
 	LicenseURL            string       `yaml:"license_url,omitempty" json:"license_url,omitempty"`
 	ReleaseNotes          string       `yaml:"release_notes,omitempty" json:"release_notes,omitempty"`
 	ReleaseNotesURL       string       `yaml:"release_notes_url,omitempty" json:"release_notes_url,omitempty"`
+	Tags                  []string     `yaml:"tags,omitempty" json:"tags,omitempty"`
 }
 
 // Krew contains the krew section.

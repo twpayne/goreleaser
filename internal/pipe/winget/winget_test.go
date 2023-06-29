@@ -84,6 +84,7 @@ func TestRunPipe(t *testing.T) {
 				LicenseURL:      "https://goreleaser.com/eula/",
 				ReleaseNotesURL: "https://github.com/goreleaser/goreleaser/tags/{{.Tag}}",
 				ReleaseNotes:    "{{.Changelog}}",
+				Tags:            []string{"baz"},
 			},
 		},
 		{
