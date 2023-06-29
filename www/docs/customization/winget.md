@@ -90,6 +90,9 @@ winget:
 
     # Copyright.
     copyright: "Becker Software LTDA"
+    
+    # Copyright URL.
+    copyright_url: "https://goreleaser.com/copyright"
 
     # Setting this will prevent goreleaser to actually try to commit the updated
     # package - instead, it will be stored on the dist folder only,

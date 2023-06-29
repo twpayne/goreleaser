@@ -267,6 +267,7 @@ type Winget struct {
 	Publisher             string       `yaml:"publisher,omitempty" json:"publisher,omitempty"`
 	PublisherURL          string       `yaml:"publisher_url,omitempty" json:"publisher_url,omitempty"`
 	Copyright             string       `yaml:"copyright,omitempty" json:"copyright,omitempty"`
+	CopyrightURL          string       `yaml:"copyright_url,omitempty" json:"copyright_url,omitempty"`
 	Author                string       `yaml:"author,omitempty" json:"author,omitempty"`
 	Path                  string       `yaml:"path,omitempty" json:"path,omitempty"`
 	Repository            RepoRef      `yaml:"repository,omitempty" json:"repository,omitempty"`

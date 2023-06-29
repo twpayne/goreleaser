@@ -308,6 +308,7 @@ func (p Pipe) doRun(ctx *context.Context, winget config.Winget, cl client.Releas
 		License:           winget.License,
 		LicenseURL:        winget.LicenseURL,
 		Copyright:         winget.Copyright,
+		CopyrightURL:      winget.CopyrightURL,
 		ShortDescription:  shortDescription,
 		Description:       description,
 		Moniker:           name,

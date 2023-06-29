@@ -11,6 +11,7 @@ PackageUrl: https://goreleaser.com
 License: MIT
 LicenseUrl: https://goreleaser.com/eula/
 Copyright: bla bla bla
+CopyrightUrl: https://goreleaser.com/copyright/
 ShortDescription: foo
 Description: |-
   long foo bar

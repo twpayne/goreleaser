@@ -66,6 +66,7 @@ func TestRunPipe(t *testing.T) {
 				Publisher:        "Beckersoft",
 				PublisherURL:     "https://carlosbecker.com",
 				Copyright:        "bla bla bla",
+				CopyrightURL:     "https://goreleaser.com/copyright/",
 				Author:           "Carlos Becker",
 				Path:             "manifests/b/Beckersoft LTDA/foo/{{.Version}}",
 				Repository:       config.RepoRef{Owner: "foo", Name: "bar"},

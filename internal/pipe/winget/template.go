@@ -106,6 +106,7 @@ type Locale struct {
 	License           string   `yaml:"License,omitempty"`
 	LicenseURL        string   `yaml:"LicenseUrl,omitempty"`
 	Copyright         string   `yaml:"Copyright,omitempty"`
+	CopyrightURL      string   `yaml:"CopyrightUrl,omitempty"`
 	ShortDescription  string   `yaml:"ShortDescription,omitempty"`
 	Description       string   `yaml:"Description,omitempty"`
 	Moniker           string   `yaml:"Moniker,omitempty"`
